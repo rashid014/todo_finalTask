@@ -1,0 +1,103 @@
+.todo-app {
+   
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(231, 231, 231);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .add-todo {
+    margin-left: 200px;
+    display: flex;
+    width:332px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-todo input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .add-todo button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .todos-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .todos,
+  .completed-tasks {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 400px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item.completed {
+    background-color: #e0f7fa;
+  }
+  
+  .todo-item input {
+    margin-right: 10px;
+  }
+  
+  .completed-tasks {
+    margin-top: 0px;
+  }
+  
+  .completed-tasks h2 {
+    color: #4caf50;
+  }
+  
+  .completed-tasks ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .completed-tasks li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pagination {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .pagination button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .pagination span {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+  
