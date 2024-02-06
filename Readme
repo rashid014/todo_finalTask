@@ -1,6 +1,6 @@
 # Todo App
 
-This is a simple Todo App built with Node.js, Express, and Swagger for API documentation.
+This is a simple Todo App built with React Js,Node.js, Express, and Swagger for API documentation.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ This is a simple Todo App built with Node.js, Express, and Swagger for API docum
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/rashid014/todo_finalTask
 Navigate to the server directory:
 
 bash
@@ -47,7 +47,7 @@ Navigate to the client directory:
 
 bash
 Copy code
-cd todo-app/client
+cd todo-finalTask/client
 Install dependencies:
 
 bash
