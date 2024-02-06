@@ -20,7 +20,7 @@ Navigate to the server directory:
 
 bash
 Copy code
-cd todo-app/server
+cd todo_finalTask/server
 
 Copy code
 npm install
