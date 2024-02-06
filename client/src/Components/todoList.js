@@ -6,8 +6,10 @@ import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-
+import InputAdornment from '@mui/material/InputAdornment';
+import SearchIcon from '@mui/icons-material/Search';
 import './todoList.css';
+
 
 const TodoList = () => {
   const [todos, setTodos] = useState([]);
@@ -74,14 +76,21 @@ const TodoList = () => {
           </Paper>
         </Grid>
         <Grid item xs={12}>
-          <TextField
-            type="text"
-            label="Search tasks"
-            variant="outlined"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
-        </Grid>
+        <TextField
+          type="text"
+          label="Search tasks"
+          variant="outlined"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          InputProps={{
+            startAdornment: (
+              <InputAdornment position="start">
+                <SearchIcon />
+              </InputAdornment>
+            ),
+          }}
+        />
+                </Grid>
         <Grid item xs={12}>
           <Grid container spacing={2}>
             <Grid item xs={12} md={6}>

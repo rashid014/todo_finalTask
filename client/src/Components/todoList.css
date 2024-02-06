@@ -4,10 +4,16 @@
     margin: auto;
     padding: 20px;
     font-family: 'Arial', sans-serif;
-    background-color:rgb(231, 231, 231);
+    background-color:rgb(234, 165, 165);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
   }
+
+  .todos,
+.completed-tasks {
+  height: 400px; 
+  overflow-y: auto; 
+}
   
   .add-todo {
     margin-left: 200px;

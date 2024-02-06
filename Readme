@@ -1,0 +1,68 @@
+# Todo App
+
+This is a simple Todo App built with Node.js, Express, and Swagger for API documentation.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- MongoDB installed and running
+- NPM (Node Package Manager) installed
+
+### Server Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/todo-app.git
+Navigate to the server directory:
+
+bash
+Copy code
+cd todo-app/server
+
+Copy code
+npm install
+Set up MongoDB:
+
+Make sure MongoDB is running.
+
+Create a .env file in the server directory and add your MongoDB connection URL:
+
+makefile
+Copy code
+MONGODB_URI=your-mongodb-connection-url
+Start the server:
+
+bash
+Copy code
+npm start
+The server will be running at http://localhost:4000.
+
+Client Setup
+Open a new terminal window.
+
+Navigate to the client directory:
+
+bash
+Copy code
+cd todo-app/client
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the client:
+
+bash
+Copy code
+npm start
+The client will be running at http://localhost:3000.
+
+Access Swagger API Documentation
+Open a web browser and go to http://localhost:4000/api-docs to access Swagger API documentation.
+
+Explore the API endpoints and test them using Swagger UI.
+
+Feel free to replace "your-username" and customize the instructions based on your specific project structure or requirements.
